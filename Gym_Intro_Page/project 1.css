@@ -1,0 +1,119 @@
+/* General styles */
+body {
+    background-color: black;
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('gym.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -200px -21px;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.left, .mid, .right {
+    display: flex;
+    align-items: center;
+}
+
+.left img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.navbar {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.navbar li {
+    margin: 0 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Lobster', cursive;
+}
+.navbar :hover{
+   background-color: rgb(62, 62, 62);
+   border-radius: 2px;
+}
+
+.navbar a.active {
+    border-bottom: 2px solid #fff;
+}
+
+.btn {
+    background: #f04a4a;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-family: 'Edu SA Beginner', cursive;
+}
+
+.btn:hover {
+    background: #c0392b;
+}
+
+.cont {
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 600px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: 'Berkshire Swash', cursive;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group input {
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navbar li {
+        margin: 10px 0;
+    }
+
+    .right {
+        flex-direction: column;
+    }
+
+    .right .btn {
+        margin: 10px 0;
+    }
+}

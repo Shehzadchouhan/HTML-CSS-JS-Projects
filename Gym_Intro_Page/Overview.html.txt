@@ -1,0 +1,16 @@
+Sure! Here's a brief overview of your gym page project for GitHub:
+
+---
+
+## Shehzad Fitness Zone
+
+This is a responsive webpage for Shehzad Fitness Zone, a gym located in Punjab. The page is designed using HTML and CSS, incorporating modern web design principles to ensure a user-friendly experience. Key features include:
+
+- A navigation bar with links to Home, About Us, Contact Us, and a Fitness Calculator.
+- A form for users to sign up by providing their name, age, gender, locality, phone number, and email ID.
+- Responsive design ensuring compatibility with various screen sizes.
+- A visually appealing background image, enhancing the overall aesthetic.
+
+This project demonstrates basic web development skills and is a part of a B.Tech student's portfolio.
+
+---
