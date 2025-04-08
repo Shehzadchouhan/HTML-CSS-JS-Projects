@@ -14,4 +14,4 @@ A simple and modern To-Do List built using **HTML, CSS, and JavaScript**. 🎯
 2. Open `index.html` in your browser 🚀  
 
 ## 🌟 Show Some Love:
-If you like this project, give it a ⭐ on [GitHub](https://github.com/your-username/todo-list)! 🚀
+If you like this project, give it a ⭐ on [GitHub]([https://github.com/ShehzadChouhan])! 🚀
